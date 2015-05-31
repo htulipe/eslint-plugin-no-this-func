@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-no-this-func",
+  "version": "0.0.0",
+  "description": "Prevent declaration of function on 'this'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/htulipe/eslint-plugin-no-this-func"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "htulipe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/htulipe/eslint-plugin-no-this-func/issues"
+  },
+  "homepage": "https://github.com/htulipe/eslint-plugin-no-this-func",
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "eslint-tester": "^0.7.0",
+    "mocha": "^2.2.5"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  }
+}
